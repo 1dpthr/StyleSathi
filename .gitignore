@@ -1,0 +1,34 @@
+# ---- OS / editor noise ----
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ---- Logs & temporary scratch files ----
+*.log
+*.tmp
+run_log.txt
+analyze_output.txt
+test_output.txt
+unit_test.txt
+widget_test.txt
+doctor.txt
+probe.txt
+
+# ---- Flutter / Dart (app-level .gitignore also applies) ----
+.dart_tool/
+.packages
+build/
+.flutter-plugins
+.flutter-plugins-dependencies
+pubspec.lock.bak
+
+# ---- IDE ----
+.idea/
+*.iml
+*.ipr
+*.iws
+.vscode/*
+!.vscode/settings.json
+
+# ---- Coverage ----
+coverage/
